@@ -1,0 +1,42 @@
+/*Declarando variáveis de cor para padronizar*/
+:root{
+    --primaria-fundo: #aaa;
+    --primaria-texto: #000;
+    --secundaria-fundo: #333;
+    --secundaria-texto: #fff;
+    --terciaria-fundo: #0a6;
+}
+
+/*Barra de navegação*/
+#navbar{
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: var(--secundaria-fundo);
+}
+
+/*Links com aparencia difente*/
+#navbar a{
+    color: var(--secundaria-texto);
+    display: block;
+    float: left;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*Link do navbar em destaque*/
+#navbar a.active{
+    background-color: var(--terciaria-fundo);
+}
+
+/*Mouse sobre o menu*/
+#navbar a:hover{
+    background-color: var(--primaria-fundo);
+    color: var(--primaria-texto);
+}
+
+/*Container*/
+.content{
+    padding: 16px;
+}
