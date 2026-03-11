@@ -1,17 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="css/style.css" rel="stylesheet" />
 </head>
+
 <body>
     <!--Barra de navegação-->
     <div id="navbar">
         <a href="#inicial">Inicial</a>
         <a href="#noticias">Notícias</a>
         <a href="#contato">Contato</a>
+        <a href="mapa.html">Mapa do site</a>
+    </div>
+
+    <!--Content-->
+    <div class="content">
+        <article id="inicial">
+            <h1>Seja bem vindo(a) ao site</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <p>Ipsum quo dolorum unde ipsam omnis officia amet fugiat cupiditate error velit, ducimus, molestias iusto
+                maxime in illo, optio nobis aut fuga.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <p>Ipsum quo dolorum unde ipsam omnis officia amet fugiat cupiditate error velit, ducimus, molestias iusto
+                maxime in illo, optio nobis aut fuga.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <p>Ipsum quo dolorum unde ipsam omnis officia amet fugiat cupiditate error velit, ducimus, molestias iusto
+                maxime in illo, optio nobis aut fuga.</p>
+            </article>
+            <article >
+                <h1 id="noticias">Notícias</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <p>Ipsum quo dolorum unde ipsam omnis officia amet fugiat cupiditate error velit, ducimus, molestias iusto
+                    maxime in illo, optio nobis aut fuga.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <p>Ipsum quo dolorum unde ipsam omnis officia amet fugiat cupiditate error velit, ducimus, molestias iusto
+                    maxime in illo, optio nobis aut fuga.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <p>Ipsum quo dolorum unde ipsam omnis officia amet fugiat cupiditate error velit, ducimus, molestias iusto
+                    maxime in illo, optio nobis aut fuga.</p>
+        </article>
+        <article id="contato">
+            <h1>Entre em contato</h1>
+            <form>
+                <p>
+                    <label for="txt_nome">Nome:</label>
+                    <input type="text" placeholder="Escreva seu nome" id="txt_nome" required />
+                </p>
+                <p>
+                    <label for="txt_email">E-mail:</label>
+                    <input type="email" placeholder="Escreva seu e-mail" id="txt_email" required />
+                </p>
+                <p>
+                    <label for="txt_mensagem">Mensagem:</label>
+                    <textarea id="txt_mensagem" required placeholder="Escreva aqui sua mensagem"></textarea>
+                </p>
+                <p>
+                    <button type="submit">Enviar</button>
+                </p>
+            </form>
+        </article>
     </div>
 </body>
+
 </html>

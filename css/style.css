@@ -40,3 +40,9 @@
 .content{
     padding: 16px;
 }
+
+/*Parágrafos grandes em artigos*/
+article p{
+    font-size: x-large;
+    padding: 50px;
+}
